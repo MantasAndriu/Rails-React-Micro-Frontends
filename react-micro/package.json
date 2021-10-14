@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "lerna run --scope @react-micro/* --parallel start",
+    "build": "lerna run --scope @react-micro/* build",
+    "serve": "lerna run --scope @react-micro/* --parallel serve",
+    "clean": "lerna run --scope @react-micro/* --parallel clean"
+  },
+  "devDependencies": {
+    "lerna": "3.22.1"
+  },
+  "dependencies": {
+    "@types/react-router-dom": "^5.3.1",
+    "@types/styled-components": "^5.1.15",
+    "install": "^0.13.0",
+    "npm": "^8.0.0"
+  }
+}
